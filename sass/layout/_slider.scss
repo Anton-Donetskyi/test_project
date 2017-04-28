@@ -58,5 +58,11 @@ p {
     outline: none;
 }
 
+@media screen and (max-width: 425px) {
+	.slick-prev, .slick-next {
+		visibility: hidden;
+	}
+}
+
 
 

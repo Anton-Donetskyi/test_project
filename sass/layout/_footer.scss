@@ -104,6 +104,15 @@ h2 {
 	color: #ffffff;
 }
 
+@media screen and (max-width: 1024px) {
+	footer {
+		.contact {
+			padding: 0 5px;
+		}
+
+	}
+}
+
 @media screen and (max-width: 768px) {
 	footer {
 		padding: 50px 15px;
@@ -125,6 +134,29 @@ h2 {
 
 				a {
 					margin: 0 0 15px 0;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 425px) {
+	footer {
+
+		.contact {
+			
+			article {
+				margin-right: 0;
+			}
+
+			form {
+
+				input {
+					width: 100%;
+
+					&:first-child {
+						margin-right: 0;
+					}
 				}
 			}
 		}

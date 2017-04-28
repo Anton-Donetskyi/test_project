@@ -58,9 +58,24 @@
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 	.service {
 		padding: 50px 15px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.service {
+		flex-direction: column;
+
+		section {
+			width: 100%;
+			padding-bottom: 20px;
+
+			&:nth-child(2) {
+				margin: 0;
+			}
+		}
 	}
 }
 
