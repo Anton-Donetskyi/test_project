@@ -55,6 +55,12 @@ nav a:hover { color: #49cbcd; border-bottom: 3px solid #49cbcd; background-color
   .menu { display: none; position: absolute; background: #49cbcd; }
   /* line 83, ../sass/layout/_header.scss */
   .menuToggle { display: inline-block; /*background-color: $primary-color;*/ } }
+@media screen and (max-width: 320px) { /* line 92, ../sass/layout/_header.scss */
+  .slide h1 { font-size: 24px; }
+  /* line 96, ../sass/layout/_header.scss */
+  .slide p { font-size: 14px; }
+  /* line 100, ../sass/layout/_header.scss */
+  .slide a { padding: 10px 14px 10px 14px; } }
 /* line 3, ../sass/layout/_team.scss */
 .the_team { padding: 106px 0; }
 
@@ -168,6 +174,8 @@ h2 { padding-bottom: 118px; text-align: center; font-size: 42px; color: #ffffff;
   footer .contact form input { width: 100%; }
   /* line 157, ../sass/layout/_footer.scss */
   footer .contact form input:first-child { margin-right: 0; } }
+@media screen and (max-width: 375px) { /* line 168, ../sass/layout/_footer.scss */
+  footer .send_btn { padding: 10px 35px; } }
 /* line 1, ../sass/layout/_slider.scss */
 .bg { background: url("../images/banner.png"); background-size: cover; background-position: center; }
 
@@ -203,6 +211,8 @@ p { font-size: 23px; padding-bottom: 60px; color: #ffffff; line-height: 37px; }
 
 @media screen and (max-width: 425px) { /* line 62, ../sass/layout/_slider.scss */
   .slick-prev, .slick-next { visibility: hidden; } }
+@media screen and (max-width: 320px) { /* line 68, ../sass/layout/_slider.scss */
+  .slide { padding: 70px 0 75px; } }
 /* line 7, ../sass/layout/__layout.scss */
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-family: "OpenSans", sans-serif; }
 
