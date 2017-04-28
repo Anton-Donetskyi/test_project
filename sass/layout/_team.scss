@@ -42,3 +42,32 @@ $text-color: #4e525d;
 	}
 }
 
+@media screen and (max-width: 768px) {
+	.the_team {
+		padding: 50px 0;
+
+		.our_team {
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: space-around;
+			padding-top: 50px;
+
+			article {
+				width:  300px;
+
+				img {
+					margin-bottom: 30px;
+				}
+
+				h4 {
+					padding-bottom: 15px;
+				}
+
+				p {
+					padding-bottom: 0;
+				}	
+			}
+		}
+	}
+}
+

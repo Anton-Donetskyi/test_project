@@ -30,25 +30,24 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* line 13, ../sass/layout/_header.scss */
 .menuToggle { display: none; margin: 32px 25px 0 20px; text-align: right; cursor: pointer; width: 50px; }
 
-/*.hamburger {
-	width: 64px;
-}*/
-/* line 24, ../sass/layout/_header.scss */
+/* line 21, ../sass/layout/_header.scss */
 nav { display: inline-block; float: right; }
-/* line 28, ../sass/layout/_header.scss */
+/* line 25, ../sass/layout/_header.scss */
 nav .menu { z-index: 9999; }
-/* line 32, ../sass/layout/_header.scss */
+/* line 29, ../sass/layout/_header.scss */
 nav li { display: inline-block; text-align: center; }
-/* line 36, ../sass/layout/_header.scss */
+/* line 33, ../sass/layout/_header.scss */
 nav li:last-child { padding-right: 0px; }
-/* line 41, ../sass/layout/_header.scss */
+/* line 38, ../sass/layout/_header.scss */
 nav a { display: inline-block; padding: 45px 25px 44px 20px; text-decoration: none; color: #484c55; font-size: 15px; }
-/* line 48, ../sass/layout/_header.scss */
+/* line 45, ../sass/layout/_header.scss */
 nav a:hover { color: #49cbcd; border-bottom: 3px solid #49cbcd; background-color: #f8f9fb; }
 
-@media screen and (max-width: 720px) { /* line 57, ../sass/layout/_header.scss */
+@media screen and (max-width: 1024px) { /* line 55, ../sass/layout/_header.scss */
+  header { padding: 0 15px; } }
+@media screen and (max-width: 720px) { /* line 65, ../sass/layout/_header.scss */
   .menu { display: none; position: absolute; background: #49cbcd; }
-  /* line 62, ../sass/layout/_header.scss */
+  /* line 70, ../sass/layout/_header.scss */
   .menuToggle { display: inline-block; /*background-color: $primary-color;*/ } }
 /* line 3, ../sass/layout/_team.scss */
 .the_team { padding: 106px 0; }
@@ -69,6 +68,18 @@ nav a:hover { color: #49cbcd; border-bottom: 3px solid #49cbcd; background-color
 /* line 38, ../sass/layout/_team.scss */
 .our_team p { font-size: 14px; color: #4e525d; line-height: 28px; }
 
+@media screen and (max-width: 768px) { /* line 46, ../sass/layout/_team.scss */
+  .the_team { padding: 50px 0; }
+  /* line 49, ../sass/layout/_team.scss */
+  .the_team .our_team { flex-wrap: wrap; align-items: center; justify-content: space-around; padding-top: 50px; }
+  /* line 55, ../sass/layout/_team.scss */
+  .the_team .our_team article { width: 300px; }
+  /* line 58, ../sass/layout/_team.scss */
+  .the_team .our_team article img { margin-bottom: 30px; }
+  /* line 62, ../sass/layout/_team.scss */
+  .the_team .our_team article h4 { padding-bottom: 15px; }
+  /* line 66, ../sass/layout/_team.scss */
+  .the_team .our_team article p { padding-bottom: 0; } }
 /* line 1, ../sass/layout/_service.scss */
 .service_container { background-color: #f1f1f1; }
 
@@ -89,6 +100,8 @@ nav a:hover { color: #49cbcd; border-bottom: 3px solid #49cbcd; background-color
 /* line 48, ../sass/layout/_service.scss */
 .service .div_btn .button { margin-top: 30px; padding: 12px 50px; display: inline-block; background-color: #788492; color: #ffffff; font-size: 17px; text-decoration: none; border-radius: 3px; }
 
+@media screen and (max-width: 768px) { /* line 62, ../sass/layout/_service.scss */
+  .service { padding: 50px 15px; } }
 /* line 1, ../sass/layout/_footer.scss */
 footer { background: url(../images/background.png); padding: 105px 0 98px; background-size: cover; background-position: center; }
 /* line 7, ../sass/layout/_footer.scss */
@@ -123,6 +136,18 @@ footer .send_btn:hover { background-color: #5deb60; }
 /* line 100, ../sass/layout/_footer.scss */
 h2 { padding-bottom: 118px; text-align: center; font-size: 42px; color: #ffffff; }
 
+@media screen and (max-width: 768px) { /* line 108, ../sass/layout/_footer.scss */
+  footer { padding: 50px 15px; }
+  /* line 111, ../sass/layout/_footer.scss */
+  footer h2 { padding-bottom: 50px; }
+  /* line 115, ../sass/layout/_footer.scss */
+  footer .contact { flex-direction: column-reverse; align-items: center; }
+  /* line 119, ../sass/layout/_footer.scss */
+  footer .contact article { margin-right: 150px; }
+  /* line 122, ../sass/layout/_footer.scss */
+  footer .contact article header { padding: 30px 0 0; }
+  /* line 126, ../sass/layout/_footer.scss */
+  footer .contact article a { margin: 0 0 15px 0; } }
 /* line 1, ../sass/layout/_slider.scss */
 .bg { background: url("../images/banner.png"); background-size: cover; background-position: center; }
 
