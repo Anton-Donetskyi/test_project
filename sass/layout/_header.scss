@@ -1,0 +1,66 @@
+
+$primary-color: #49cbcd;
+$bg-color: #f8f9fb;
+
+.logo {
+	font-family: 'Lobster';
+	font-size: 43px;
+	color: #44c0c2;
+	display: inline-block;
+	padding: 32px 0;
+}
+
+.menuToggle {
+	display: none;
+    margin: 32px 25px 0 20px;
+    text-align: right;
+    cursor: pointer;
+    width: 50px;
+}
+/*.hamburger {
+	width: 64px;
+}*/
+
+nav {
+	display: inline-block;
+	float: right;
+
+	.menu {
+		z-index: 9999;
+	}
+	
+	li {
+		display: inline-block;
+		text-align: center;
+
+		&:last-child {
+			padding-right: 0px;
+		}	
+	}
+
+	a {
+		display: inline-block;
+		padding: 45px 25px 44px 20px;
+		text-decoration: none;
+		color: #484c55;
+		font-size: 15px;
+
+		&:hover {
+			color: $primary-color;
+		    border-bottom: 3px solid $primary-color;
+		    background-color: $bg-color;
+		}
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.menu {
+		display: none;
+		position: absolute;
+    	background: $primary-color;
+	}
+	.menuToggle {
+		display: inline-block;
+		/*background-color: $primary-color;*/
+	}
+}

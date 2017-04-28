@@ -1,0 +1,105 @@
+footer {
+	background: url(../images/background.png);
+	padding: 105px 0 98px;
+	background-size: cover;
+	background-position: center;
+
+	.contact {
+		display: flex;
+		justify-content: space-between;
+
+		article {
+
+			header {
+				font-size: 24px;
+				color: #ffffff;
+			}
+
+			div {
+				padding-bottom: 15px;
+
+				img {
+					width: 42px;
+				}
+
+				a {
+					margin-right: 15px;
+				
+					&:last-child {
+						margin-right: 0px;
+					}		
+				}
+			}
+
+			p {
+				display: inline-block;
+				padding: 16px 0 40px;
+				font-size: 14px;
+				color: #797979;
+				line-height: 21px;
+			}
+
+			address {
+				font-size: 14px;
+				color: #8c80a4;
+				line-height: 26px;
+			}
+
+			.mail {
+				font-size: 14px;
+				color: #8c80a4;
+				text-decoration: none;
+			}
+		}
+
+		form {
+
+			input {
+				width: 270px;
+				height: 44px;
+				/*border-radius: 3px;*/
+				padding: 12px 5px 12px 20px;
+				margin-bottom: 30px;
+				border: none;
+				font-size: 16px;
+
+				&:first-child {
+					margin-right: 25px;
+				}
+			}
+
+			textarea {
+				display: block;
+				width: 100%;
+				border: none;
+				padding: 20px 10px 10px 20px;
+				font-size: 16px;
+			}
+		}
+	}
+
+
+	.send_btn {
+		padding: 14px 65px 19px 55px;
+		color: #ffffff;
+		background-color: $primary-color;
+		font-size: 22px;
+		line-height: 18px;
+		border-radius: 3px;
+		border: none;
+		display: block;
+		margin: 30px 0 0 auto;
+		cursor: pointer;
+
+		&:hover {
+			background-color: #5deb60;
+		};
+	}
+}
+
+h2 {
+	padding-bottom: 118px;
+	text-align: center;
+	font-size: 42px;
+	color: #ffffff;
+}

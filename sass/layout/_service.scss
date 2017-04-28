@@ -1,0 +1,60 @@
+.service_container {
+	background-color: #f1f1f1;
+}
+
+.service {
+	display: flex;
+	justify-content: space-between;
+	padding: 118px 0 100px;
+
+	section {
+		text-align: center;
+		width: calc(100% / 3);
+
+		&:nth-child(2) {
+			margin: 0 30px;
+		};
+
+		h2 {
+			font-size: 26px;
+			color: #ffffff;
+			padding: 30px 0;
+			background-color: #485460;
+		}
+
+		h3 {
+			font-size: 20px;
+			padding: 25px;
+			background-color: $bg-color;
+		}
+
+		ul {
+
+			li {
+				padding: 15px 20px;
+				background-color: #ffffff;
+				color: #abafb4;
+				font-size: 14px;
+				border-bottom: 1px solid #ecf0f1;
+			}
+		}
+	}
+	
+	.div_btn {
+		padding: 0  0 30px;
+		background-color: $bg-color;
+
+ 
+		.button {
+			margin-top: 30px;
+			padding: 12px 50px;
+			display: inline-block;
+			background-color: #788492;
+			color: #ffffff;
+			font-size: 17px;
+			text-decoration: none;
+			border-radius: 3px;
+		}
+	}
+}
+
