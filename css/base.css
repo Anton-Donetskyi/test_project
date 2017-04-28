@@ -230,3 +230,6 @@ img { max-width: 100%; height: auto; vertical-align: middle; margin: auto 0; }
 
 /* line 35, ../sass/layout/__layout.scss */
 .clearfix::after { content: ""; display: block; clear: both; }
+
+/* line 41, ../sass/layout/__layout.scss */
+.fixed { position: fixed; right: 0; z-index: 99999; }

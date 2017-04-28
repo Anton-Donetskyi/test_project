@@ -36,6 +36,12 @@ img {
     content: "";
     display: block;
     clear: both;
+}
+
+.fixed {
+	position: fixed;
+	right: 0;
+	z-index: 99999;
 }    
 
 
