@@ -151,40 +151,40 @@ footer .contact article address { font-size: 14px; color: #8c80a4; line-height: 
 /* line 48, ../sass/layout/_footer.scss */
 footer .contact article .mail { font-size: 14px; color: #8c80a4; text-decoration: none; }
 /* line 57, ../sass/layout/_footer.scss */
-footer .contact form input { width: 270px; height: 44px; /*border-radius: 3px;*/ padding: 12px 5px 12px 20px; margin-bottom: 30px; border: none; font-size: 16px; }
-/* line 66, ../sass/layout/_footer.scss */
+footer .contact form input { width: 270px; height: 44px; padding: 12px 5px 12px 20px; margin-bottom: 30px; border: none; font-size: 16px; }
+/* line 65, ../sass/layout/_footer.scss */
 footer .contact form input:first-child { margin-right: 25px; }
-/* line 71, ../sass/layout/_footer.scss */
+/* line 70, ../sass/layout/_footer.scss */
 footer .contact form textarea { display: block; width: 100%; border: none; padding: 20px 10px 10px 20px; font-size: 16px; }
-/* line 82, ../sass/layout/_footer.scss */
+/* line 81, ../sass/layout/_footer.scss */
 footer .send_btn { padding: 14px 65px 19px 55px; color: #ffffff; background-color: #49cbcd; font-size: 22px; line-height: 18px; border-radius: 3px; border: none; display: block; margin: 30px 0 0 auto; cursor: pointer; }
-/* line 94, ../sass/layout/_footer.scss */
+/* line 93, ../sass/layout/_footer.scss */
 footer .send_btn:hover { background-color: #5deb60; }
 
-/* line 100, ../sass/layout/_footer.scss */
+/* line 99, ../sass/layout/_footer.scss */
 h2 { padding-bottom: 118px; text-align: center; font-size: 42px; color: #ffffff; }
 
-@media screen and (max-width: 1024px) { /* line 109, ../sass/layout/_footer.scss */
+@media screen and (max-width: 1024px) { /* line 108, ../sass/layout/_footer.scss */
   footer .contact { padding: 0 5px; } }
-@media screen and (max-width: 768px) { /* line 117, ../sass/layout/_footer.scss */
+@media screen and (max-width: 768px) { /* line 116, ../sass/layout/_footer.scss */
   footer { padding: 50px 15px; }
-  /* line 120, ../sass/layout/_footer.scss */
+  /* line 119, ../sass/layout/_footer.scss */
   footer h2 { padding-bottom: 50px; }
-  /* line 124, ../sass/layout/_footer.scss */
+  /* line 123, ../sass/layout/_footer.scss */
   footer .contact { flex-direction: column-reverse; align-items: center; }
-  /* line 128, ../sass/layout/_footer.scss */
+  /* line 127, ../sass/layout/_footer.scss */
   footer .contact article { margin-right: 150px; }
-  /* line 131, ../sass/layout/_footer.scss */
+  /* line 130, ../sass/layout/_footer.scss */
   footer .contact article header { padding: 30px 0 0; }
-  /* line 135, ../sass/layout/_footer.scss */
+  /* line 134, ../sass/layout/_footer.scss */
   footer .contact article a { margin: 0 0 15px 0; } }
-@media screen and (max-width: 425px) { /* line 148, ../sass/layout/_footer.scss */
+@media screen and (max-width: 425px) { /* line 147, ../sass/layout/_footer.scss */
   footer .contact article { margin-right: 0; }
-  /* line 154, ../sass/layout/_footer.scss */
+  /* line 153, ../sass/layout/_footer.scss */
   footer .contact form input { width: 100%; }
-  /* line 157, ../sass/layout/_footer.scss */
+  /* line 156, ../sass/layout/_footer.scss */
   footer .contact form input:first-child { margin-right: 0; } }
-@media screen and (max-width: 375px) { /* line 168, ../sass/layout/_footer.scss */
+@media screen and (max-width: 375px) { /* line 167, ../sass/layout/_footer.scss */
   footer .send_btn { padding: 10px 35px; } }
 /* line 1, ../sass/layout/_slider.scss */
 .bg { background: url("../images/banner.png"); background-size: cover; background-position: center; }
