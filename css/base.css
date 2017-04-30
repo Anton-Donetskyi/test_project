@@ -25,45 +25,51 @@ table { border-collapse: collapse; border-spacing: 0; }
 @font-face { font-family: 'Lobster'; src: url("fonts/Lobster/Lobster_1_4.eot"); src: url("fonts/Lobster/Lobster_1_4.woff"), url("fonts/Lobster/Lobster_1_4.ttf"), url("fonts/Lobster/Lobster_1_4.svg"); }
 @font-face { font-family: 'OpenSans'; src: url("fonts/OpenSans/OpenSans-Regular-webfont.eot"); src: url("fonts/OpenSans/OpenSans-Regular-webfont.woff"), url("fonts/OpenSans/OpenSans-Regular-webfont.ttf"); }
 /* line 5, ../sass/layout/_header.scss */
-.logo { font-family: 'Lobster'; font-size: 43px; color: #44c0c2; display: inline-block; padding: 32px 0; }
+.main_header { background: #fff; z-index: 99999; width: 100%; height: 107px; position: fixed; }
 
 /* line 13, ../sass/layout/_header.scss */
+.fix_header { width: 100%; z-index: 0; height: 107px; }
+
+/* line 19, ../sass/layout/_header.scss */
+.logo { font-family: 'Lobster'; font-size: 43px; color: #44c0c2; display: inline-block; padding: 32px 0; }
+
+/* line 27, ../sass/layout/_header.scss */
 .menuToggle { display: none; margin: 32px 25px 0 20px; text-align: right; cursor: pointer; width: 50px; }
 
-/* line 21, ../sass/layout/_header.scss */
+/* line 35, ../sass/layout/_header.scss */
 nav { display: inline-block; float: right; }
-/* line 25, ../sass/layout/_header.scss */
+/* line 39, ../sass/layout/_header.scss */
 nav .menu { z-index: 9999; }
-/* line 29, ../sass/layout/_header.scss */
+/* line 43, ../sass/layout/_header.scss */
 nav li { display: inline-block; text-align: center; }
-/* line 33, ../sass/layout/_header.scss */
+/* line 47, ../sass/layout/_header.scss */
 nav li:last-child { padding-right: 0px; }
-/* line 38, ../sass/layout/_header.scss */
+/* line 52, ../sass/layout/_header.scss */
 nav a { display: inline-block; padding: 45px 25px 44px 20px; text-decoration: none; color: #484c55; font-size: 15px; }
-/* line 45, ../sass/layout/_header.scss */
+/* line 59, ../sass/layout/_header.scss */
 nav a:hover { color: #49cbcd; border-bottom: 3px solid #49cbcd; background-color: #f8f9fb; }
 
-@media screen and (max-width: 1024px) { /* line 55, ../sass/layout/_header.scss */
+@media screen and (max-width: 1024px) { /* line 69, ../sass/layout/_header.scss */
   header { padding: 0 15px; } }
-@media screen and (max-width: 425px) { /* line 63, ../sass/layout/_header.scss */
+@media screen and (max-width: 425px) { /* line 77, ../sass/layout/_header.scss */
   .slide h1 { font-size: 32px; }
-  /* line 67, ../sass/layout/_header.scss */
+  /* line 81, ../sass/layout/_header.scss */
   .slide p { font-size: 18px; }
-  /* line 71, ../sass/layout/_header.scss */
+  /* line 85, ../sass/layout/_header.scss */
   .slide a { padding: 14px 28px 14px 34px; } }
-@media screen and (max-width: 720px) { /* line 78, ../sass/layout/_header.scss */
+@media screen and (max-width: 720px) { /* line 92, ../sass/layout/_header.scss */
   .menu { display: none; position: absolute; background: #49cbcd; text-align: center; }
-  /* line 86, ../sass/layout/_header.scss */
+  /* line 100, ../sass/layout/_header.scss */
   .menu li a { padding: 20px 10px; width: 120px; }
-  /* line 90, ../sass/layout/_header.scss */
+  /* line 104, ../sass/layout/_header.scss */
   .menu li a:hover { border-bottom: none; }
-  /* line 96, ../sass/layout/_header.scss */
+  /* line 110, ../sass/layout/_header.scss */
   .menuToggle { display: inline-block; margin: 32px 35px 25px 35px; } }
-@media screen and (max-width: 320px) { /* line 105, ../sass/layout/_header.scss */
+@media screen and (max-width: 320px) { /* line 119, ../sass/layout/_header.scss */
   .slide h1 { font-size: 24px; }
-  /* line 109, ../sass/layout/_header.scss */
+  /* line 123, ../sass/layout/_header.scss */
   .slide p { font-size: 14px; }
-  /* line 113, ../sass/layout/_header.scss */
+  /* line 127, ../sass/layout/_header.scss */
   .slide a { padding: 10px 14px 10px 14px; } }
 /* line 3, ../sass/layout/_team.scss */
 .the_team { padding: 106px 0; }
