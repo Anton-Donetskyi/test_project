@@ -22,6 +22,7 @@ $bg-color: #f8f9fb;
 	color: #44c0c2;
 	display: inline-block;
 	padding: 32px 0;
+	margin-left: 135px;
 }
 
 .menuToggle {
@@ -35,6 +36,7 @@ $bg-color: #f8f9fb;
 nav {
 	display: inline-block;
 	float: right;
+	margin-right: 135px;
 
 	.menu {
 		z-index: 9999;
@@ -61,6 +63,16 @@ nav {
 		    border-bottom: 3px solid $primary-color;
 		    background-color: $bg-color;
 		}
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.logo {
+		margin-left: 0;
+	}
+
+	nav {
+		margin-right: 0;
 	}
 }
 

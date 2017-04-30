@@ -31,45 +31,49 @@ table { border-collapse: collapse; border-spacing: 0; }
 .fix_header { width: 100%; z-index: 0; height: 107px; }
 
 /* line 19, ../sass/layout/_header.scss */
-.logo { font-family: 'Lobster'; font-size: 43px; color: #44c0c2; display: inline-block; padding: 32px 0; }
+.logo { font-family: 'Lobster'; font-size: 43px; color: #44c0c2; display: inline-block; padding: 32px 0; margin-left: 135px; }
 
-/* line 27, ../sass/layout/_header.scss */
+/* line 28, ../sass/layout/_header.scss */
 .menuToggle { display: none; margin: 32px 25px 0 20px; text-align: right; cursor: pointer; width: 50px; }
 
-/* line 35, ../sass/layout/_header.scss */
-nav { display: inline-block; float: right; }
-/* line 39, ../sass/layout/_header.scss */
+/* line 36, ../sass/layout/_header.scss */
+nav { display: inline-block; float: right; margin-right: 135px; }
+/* line 41, ../sass/layout/_header.scss */
 nav .menu { z-index: 9999; }
-/* line 43, ../sass/layout/_header.scss */
+/* line 45, ../sass/layout/_header.scss */
 nav li { display: inline-block; text-align: center; }
-/* line 47, ../sass/layout/_header.scss */
+/* line 49, ../sass/layout/_header.scss */
 nav li:last-child { padding-right: 0px; }
-/* line 52, ../sass/layout/_header.scss */
+/* line 54, ../sass/layout/_header.scss */
 nav a { display: inline-block; padding: 45px 25px 44px 20px; text-decoration: none; color: #484c55; font-size: 15px; }
-/* line 59, ../sass/layout/_header.scss */
+/* line 61, ../sass/layout/_header.scss */
 nav a:hover { color: #49cbcd; border-bottom: 3px solid #49cbcd; background-color: #f8f9fb; }
 
-@media screen and (max-width: 1024px) { /* line 69, ../sass/layout/_header.scss */
+@media screen and (max-width: 1200px) { /* line 70, ../sass/layout/_header.scss */
+  .logo { margin-left: 0; }
+  /* line 74, ../sass/layout/_header.scss */
+  nav { margin-right: 0; } }
+@media screen and (max-width: 1024px) { /* line 81, ../sass/layout/_header.scss */
   header { padding: 0 15px; } }
-@media screen and (max-width: 425px) { /* line 77, ../sass/layout/_header.scss */
+@media screen and (max-width: 425px) { /* line 89, ../sass/layout/_header.scss */
   .slide h1 { font-size: 32px; }
-  /* line 81, ../sass/layout/_header.scss */
+  /* line 93, ../sass/layout/_header.scss */
   .slide p { font-size: 18px; }
-  /* line 85, ../sass/layout/_header.scss */
+  /* line 97, ../sass/layout/_header.scss */
   .slide a { padding: 14px 28px 14px 34px; } }
-@media screen and (max-width: 720px) { /* line 92, ../sass/layout/_header.scss */
+@media screen and (max-width: 720px) { /* line 104, ../sass/layout/_header.scss */
   .menu { display: none; position: absolute; background: #49cbcd; text-align: center; }
-  /* line 100, ../sass/layout/_header.scss */
+  /* line 112, ../sass/layout/_header.scss */
   .menu li a { padding: 20px 10px; width: 120px; }
-  /* line 104, ../sass/layout/_header.scss */
+  /* line 116, ../sass/layout/_header.scss */
   .menu li a:hover { border-bottom: none; }
-  /* line 110, ../sass/layout/_header.scss */
+  /* line 122, ../sass/layout/_header.scss */
   .menuToggle { display: inline-block; margin: 32px 35px 25px 35px; } }
-@media screen and (max-width: 320px) { /* line 119, ../sass/layout/_header.scss */
+@media screen and (max-width: 320px) { /* line 131, ../sass/layout/_header.scss */
   .slide h1 { font-size: 24px; }
-  /* line 123, ../sass/layout/_header.scss */
+  /* line 135, ../sass/layout/_header.scss */
   .slide p { font-size: 14px; }
-  /* line 127, ../sass/layout/_header.scss */
+  /* line 139, ../sass/layout/_header.scss */
   .slide a { padding: 10px 14px 10px 14px; } }
 /* line 3, ../sass/layout/_team.scss */
 .the_team { padding: 106px 0; }
