@@ -44,5 +44,11 @@ img {
 	z-index: 99999;
 }    
 
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+	.fixed {
+		right: 240px;
+	}
+}
+
 
 

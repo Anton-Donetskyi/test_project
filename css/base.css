@@ -25,33 +25,33 @@ table { border-collapse: collapse; border-spacing: 0; }
 @font-face { font-family: 'Lobster'; src: url("fonts/Lobster/Lobster_1_4.eot"); src: url("fonts/Lobster/Lobster_1_4.woff"), url("fonts/Lobster/Lobster_1_4.ttf"), url("fonts/Lobster/Lobster_1_4.svg"); }
 @font-face { font-family: 'OpenSans'; src: url("fonts/OpenSans/OpenSans-Regular-webfont.eot"); src: url("fonts/OpenSans/OpenSans-Regular-webfont.woff"), url("fonts/OpenSans/OpenSans-Regular-webfont.ttf"); }
 /* line 5, ../sass/layout/_header.scss */
-.main_header { background: #fff; z-index: 99999; width: 100%; height: 107px; position: fixed; }
+.main_header { background: #fff; z-index: 99999; width: 100%; height: 107px; position: fixed; max-width: 1440px; }
 
-/* line 13, ../sass/layout/_header.scss */
+/* line 14, ../sass/layout/_header.scss */
 .fix_header { width: 100%; z-index: 0; height: 107px; }
 
-/* line 19, ../sass/layout/_header.scss */
+/* line 20, ../sass/layout/_header.scss */
 .logo { font-family: 'Lobster'; font-size: 43px; color: #44c0c2; display: inline-block; padding: 32px 0; margin-left: 135px; }
 
-/* line 28, ../sass/layout/_header.scss */
+/* line 29, ../sass/layout/_header.scss */
 .menuToggle { display: none; margin: 32px 25px 0 20px; text-align: right; cursor: pointer; width: 50px; }
 
-/* line 36, ../sass/layout/_header.scss */
+/* line 37, ../sass/layout/_header.scss */
 nav { display: inline-block; float: right; margin-right: 135px; }
-/* line 41, ../sass/layout/_header.scss */
+/* line 42, ../sass/layout/_header.scss */
 nav .menu { z-index: 9999; }
-/* line 45, ../sass/layout/_header.scss */
+/* line 46, ../sass/layout/_header.scss */
 nav li { display: inline-block; text-align: center; }
-/* line 49, ../sass/layout/_header.scss */
+/* line 50, ../sass/layout/_header.scss */
 nav li:last-child { padding-right: 0px; }
-/* line 54, ../sass/layout/_header.scss */
+/* line 55, ../sass/layout/_header.scss */
 nav a { display: inline-block; padding: 45px 25px 44px 20px; text-decoration: none; color: #484c55; font-size: 15px; }
-/* line 61, ../sass/layout/_header.scss */
+/* line 62, ../sass/layout/_header.scss */
 nav a:hover { color: #49cbcd; border-bottom: 3px solid #49cbcd; background-color: #f8f9fb; }
 
-@media screen and (max-width: 1200px) { /* line 70, ../sass/layout/_header.scss */
+@media screen and (max-width: 1200px) { /* line 71, ../sass/layout/_header.scss */
   .logo { margin-left: 0; }
-  /* line 74, ../sass/layout/_header.scss */
+  /* line 75, ../sass/layout/_header.scss */
   nav { margin-right: 0; } }
 @media screen and (max-width: 1024px) { /* line 81, ../sass/layout/_header.scss */
   header { padding: 0 15px; } }
@@ -247,3 +247,6 @@ img { max-width: 100%; height: auto; vertical-align: middle; margin: auto 0; }
 
 /* line 41, ../sass/layout/__layout.scss */
 .fixed { position: fixed; right: 0; z-index: 99999; }
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) { /* line 48, ../sass/layout/__layout.scss */
+  .fixed { right: 240px; } }
